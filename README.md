@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+# NK Divanshu Builders and Services Pvt. Ltd. - React Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based website for NK Divanshu Builders, featuring construction packages and engineering services.
 
-## Available Scripts
+## Company Information
 
-In the project directory, you can run:
+- **Company**: NK Divanshu Builders and Services Pvt. Ltd.
+- **Services**: Engineering | Planning | Design | Services
+- **Location**: 329-Homeland City - II, Sri Ganganagar
+- **Phone**: +91-0000 000 000
+- **Website**: www.nkdivanshu24x7services.in
+- **Availability**: 24/7 Services
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Responsive Design**: Fully responsive layout that works on all devices
+- **Modern React Architecture**: Built with React Router for seamless navigation
+- **Animations**: Smooth animations using AOS (Animate On Scroll) library
+- **Multiple Pages**:
+  - Home - Landing page with hero section, metrics, services, and projects
+  - About - Company information, mission, vision, and values
+  - Services - Detailed list of engineering services offered
+  - Projects - Portfolio of completed projects
+  - Packages - Construction packages (Silver, Gold, Platinum)
+  - Contact - Contact form and company information
+  - Package Detail Pages - Individual pages for each package
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React 18
+- React Router DOM
+- AOS (Animate On Scroll)
+- Font Awesome Icons
+- Google Fonts (Inter)
+- CSS3 with CSS Variables
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+cd nk-divyanshu
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-### `npm run eject`
+3. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The application will open in your browser at `http://localhost:3000`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Build for Production
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To create a production build:
 
-## Learn More
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This will create an optimized build in the `build` folder.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Structure
 
-### Code Splitting
+```
+src/
+├── components/
+│   ├── Header.js          # Navigation header
+│   ├── Header.css
+│   ├── Footer.js          # Footer component
+│   └── Footer.css
+├── pages/
+│   ├── Home.js            # Home page
+│   ├── Home.css
+│   ├── About.js           # About page
+│   ├── About.css
+│   ├── Services.js        # Services page
+│   ├── Services.css
+│   ├── Projects.js        # Projects page
+│   ├── Packages.js        # Packages page
+│   ├── Packages.css
+│   ├── Contact.js         # Contact page
+│   ├── Contact.css
+│   ├── Silver.js          # Silver package details
+│   ├── Gold.js            # Gold package details
+│   └── Platinum.js        # Platinum package details
+├── App.js                 # Main app component with routing
+├── App.css                # Global styles
+├── index.js               # Entry point
+└── index.css              # Base styles
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Design Consistency
 
-### Analyzing the Bundle Size
+The React version maintains the exact same design as the original HTML files:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Same color scheme (Primary: #1a2a6c, Secondary: #4CAF50, Accent: #00b4d8)
+- Same typography (Inter font family)
+- Same layout and spacing
+- Same animations and transitions
+- Same responsive breakpoints
 
-### Making a Progressive Web App
+## Key Features Implemented
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. **Sticky Navigation**: Header stays at the top while scrolling
+2. **Mobile Menu**: Hamburger menu for mobile devices
+3. **Smooth Animations**: Page elements animate on scroll
+4. **Interactive Cards**: Hover effects on service cards and project cards
+5. **Form Handling**: Contact form with validation
+6. **Package Comparison**: Visual comparison of construction packages
 
-### Advanced Configuration
+## Browser Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2025 NK Divyanshu Builders and Services Pvt. Ltd. All Rights Reserved

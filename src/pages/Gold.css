@@ -1,0 +1,128 @@
+:root {
+  --gold: #FFD700;
+  --gold-light: #fff9e6;
+}
+
+.hero-gold {
+  background: linear-gradient(135deg, #1a2a6c 0%, #3a4aac 100%);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-gold h1 {
+  color: white;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-gold .lead {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 40px;
+}
+
+.price-tag-gold {
+  background: var(--gold);
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 15px 40px;
+  border-radius: 60px;
+  display: inline-block;
+  margin: 30px 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.btn-gold {
+  background: var(--gold);
+  color: #333;
+  font-weight: 700;
+}
+
+.btn-gold:hover {
+  background: #e6c200;
+}
+
+.features-gold {
+  background: var(--light);
+  padding: 80px 0;
+}
+
+.features-grid-gold {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.feature-card-gold {
+  background: white;
+  border-radius: var(--border-radius);
+  padding: 30px;
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card-gold::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  background: var(--gold);
+  transition: var(--transition);
+}
+
+.feature-card-gold:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.feature-icon-gold {
+  width: 70px;
+  height: 70px;
+  background: var(--gold-light);
+  color: var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 auto 20px;
+  transition: var(--transition);
+}
+
+.feature-card-gold:hover .feature-icon-gold {
+  background: var(--gold);
+  color: white;
+  transform: scale(1.1);
+}
+
+.cta-gold {
+  background: linear-gradient(135deg, var(--primary) 0%, #3a4aac 100%);
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.cta-gold h2 {
+  color: white;
+}
+
+.cta-gold .lead {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 768px) {
+  .hero-gold h1 {
+    font-size: 2.5rem;
+  }
+  
+  .price-tag-gold {
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,127 @@
+:root {
+  --platinum: #E5E4E2;
+  --platinum-dark: #C0C0C0;
+  --platinum-light: #F5F5F5;
+  --platinum-accent: #536878;
+}
+
+.hero-platinum {
+  background: linear-gradient(135deg, #536878 0%, #7D8CA3 100%);
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-platinum h1 {
+  color: white;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-platinum .lead {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 40px;
+}
+
+.price-tag-platinum {
+  background: var(--platinum);
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 15px 40px;
+  border-radius: 60px;
+  display: inline-block;
+  margin: 30px 0;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 2px solid var(--platinum-dark);
+}
+
+.btn-platinum {
+  background: linear-gradient(135deg, var(--platinum) 0%, var(--platinum-dark) 100%);
+  color: #333;
+  font-weight: 700;
+  border: 1px solid var(--platinum-dark);
+}
+
+.btn-platinum:hover {
+  background: linear-gradient(135deg, var(--platinum-dark) 0%, var(--platinum-accent) 100%);
+  color: white;
+}
+
+.features-platinum {
+  background: var(--platinum-light);
+  padding: 80px 0;
+}
+
+.features-grid-platinum {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.feature-card-platinum {
+  background: white;
+  border-radius: var(--border-radius);
+  padding: 30px;
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+  text-align: center;
+  border-top: 4px solid var(--platinum);
+}
+
+.feature-card-platinum:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.feature-icon-platinum {
+  width: 70px;
+  height: 70px;
+  background: var(--platinum-light);
+  color: var(--platinum-accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 auto 20px;
+  transition: var(--transition);
+  border: 2px solid var(--platinum);
+}
+
+.feature-card-platinum:hover .feature-icon-platinum {
+  background: var(--platinum-accent);
+  color: white;
+  transform: scale(1.1);
+  border-color: var(--platinum-accent);
+}
+
+.feature-card-platinum h3 {
+  color: var(--platinum-accent);
+}
+
+.cta-platinum {
+  background: linear-gradient(135deg, var(--platinum-accent) 0%, #536878 100%);
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.cta-platinum h2 {
+  color: white;
+}
+
+.cta-platinum .lead {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 768px) {
+  .hero-platinum h1 {
+    font-size: 2.5rem;
+  }
+  
+  .price-tag-platinum {
+    font-size: 1.8rem;
+  }
+}
