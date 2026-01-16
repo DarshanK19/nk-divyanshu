@@ -25,16 +25,16 @@ const Footer = () => {
               Building your dreams with quality and trust.
             </p>
             <div className="social-links">
-              <a href="#">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a href="#">
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="#">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-instagram"></i>
               </a>
             </div>
@@ -75,31 +75,31 @@ const Footer = () => {
             <h3>Our Services</h3>
             <ul>
               <li>
-                <a href="#">
+                <Link to="/services">
                   <i className="fas fa-chevron-right"></i> Hydrological Modeling
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="/services">
                   <i className="fas fa-chevron-right"></i> Environmental
                   Planning
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="/services">
                   <i className="fas fa-chevron-right"></i> Infrastructure Design
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="/services">
                   <i className="fas fa-chevron-right"></i> GIS Solutions
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#">
+                <Link to="/services">
                   <i className="fas fa-chevron-right"></i> Sustainable
                   Engineering
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -108,10 +108,10 @@ const Footer = () => {
             <h3>Contact Us</h3>
             <ul>
               <li>
-                <a href="#">
+                <Link to="/contact">
                   <i className="fas fa-map-marker-alt"></i> 329-Homeland City -
                   II, Sri Ganganagar
-                </a>
+                </Link>
               </li>
               <li>
                 <a href="tel:+910000000000">
@@ -119,14 +119,14 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://www.nkdivanshu24x7services.in" target="_blank" rel="noopener noreferrer">
                   <i className="fas fa-globe"></i> www.nkdivanshu24x7services.in
                 </a>
               </li>
               <li>
-                <a href="#">
+                <Link to="/contact">
                   <i className="fas fa-clock"></i> Mon-Fri: 9:00 AM - 6:00 PM
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -147,9 +147,9 @@ const Projects = () => {
                     </span>
                   </div>
                   <p>{project.description}</p>
-                  <a href="#" className="btn-sm">
+                  <button className="btn-sm" onClick={() => window.scrollTo(0, 0)}>
                     View Details →
-                  </a>
+                  </button>
                 </div>
               </div>
             ))}
@@ -159,9 +159,9 @@ const Projects = () => {
             style={{ textAlign: "center", marginTop: "40px" }}
             data-aos="fade-up"
           >
-            <a href="#" className="btn">
+            <button className="btn" onClick={() => window.scrollTo(0, 0)}>
               View All Projects
-            </a>
+            </button>
           </div>
         </div>
       </section>
